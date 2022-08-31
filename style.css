@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 1px solid red; */
+  padding-top: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.heading {
+  width: 7.375rem;
+  max-width: 118px;
+  height: 2.6rem;
+  /* style text in heading */
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.045em;
+  text-align: center;
+}
+
+.links {
+  width: 30rem;
+  max-width: 478px;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* border: 1px solid red; */
+}
+.links ul {
+  display: flex;
+  gap: 168px;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.links li {
+  /* border: 1px solid red; */
+  display: inline;
+}
+
+/* .links li a {
+
+} */
+
+/* styling the input  */
+/* .input {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+} */
+/* .input-bar {
+  width: 29.75rem;
+  height: 3.5rem;
+  max-width: 476px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  justify-self: start;
+  padding: 1.25rem auto 1.187rem 0.75rem;
+}
+.input-bar::placeholder {
+  margin: 1.25rem auto 1.187rem 0.75rem;
+}
+.input-btn {
+  max-width: 109px;
+  width: 6.8125rem;
+  height: 3.5rem;
+  background: #2f80ed;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 12px;
+  justify-items: end;
+} */
+
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 38.125rem;
+  max-width: 520px;
+}
+
+.input-bar {
+  width: 29.75rem;
+  height: 3.5rem;
+  max-width: 476px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  /* justify-self: start; */
+  margin-right: 1.57rem;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  /* padding: 1.25rem auto 1.187rem 0.75rem; */
+}
+
+.input-bar::placeholder {
+  margin: 1.25rem auto 1.187rem 0.75rem;
+}
+.input-btn {
+  max-width: 109px;
+  width: 6.8125rem;
+  height: 3.5rem;
+  background: #2f80ed;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 12px;
+  /* justify-items: end; */
+}
