@@ -17,4 +17,16 @@ How to style placeholder
 .input-bar::placeholder {
 
 }
+
+
+```
+
+To add padding to placeholder, add spacing to the input bar itself not the placeholder attribute.
+
+Remove the dark black bar
+
+```
+.input-bar:focus {
+  outline: none;
+}
 ```
