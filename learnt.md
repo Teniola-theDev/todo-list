@@ -30,3 +30,12 @@ Remove the dark black bar
   outline: none;
 }
 ```
+
+Make checkbox and input aligned properly
+
+```
+.check-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+```
